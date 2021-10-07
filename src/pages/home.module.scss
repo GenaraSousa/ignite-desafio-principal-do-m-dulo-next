@@ -1,1 +1,56 @@
-// TODO
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.post {
+    max-width: 720px;
+    margin: 5rem auto 0;
+    gap: 2rem;
+    a {
+        display: block;
+        margin-bottom: 3rem;
+        h1 {
+            font-size: 1.75rem;
+            color: var(--Heading);
+            margin-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.125rem;
+            font-weight: 300;
+        }
+        div {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 0.75rem;
+            flex-direction: row;
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                font-size: 0.875rem;
+            }
+            time {
+                margin-right: 24px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    div {
+        button {
+            font-size: 1.125rem;
+            font-weight: 500;
+            background: transparent;
+            border: 0;
+            color: var(--Highlight);
+            transition: filter 2s;
+            &:hover {
+                filter: brightness(0.9);
+            }
+        }
+    }
+}

@@ -8,6 +8,7 @@ O projeto foi desenvolvido no curso ignite na trilha de React
 - Prismic
 - React icons
 - Date-fns
+- SCSS
 
 ## Desafios do projeto
 - Estilizações global, comun e individuais;
